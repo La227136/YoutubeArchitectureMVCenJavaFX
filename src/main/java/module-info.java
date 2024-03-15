@@ -8,8 +8,9 @@ module org.example.youtubearchitecturemvcenjavafx {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
 
-    opens org.example.youtubearchitecturemvcenjavafx to javafx.fxml;
-    exports org.example.youtubearchitecturemvcenjavafx;
+
     exports org.example.youtubearchitecturemvcenjavafx.Controllers;
     opens org.example.youtubearchitecturemvcenjavafx.Controllers to javafx.fxml;
+    exports org.example.youtubearchitecturemvcenjavafx.views;
+    opens org.example.youtubearchitecturemvcenjavafx.views to javafx.fxml;
 }

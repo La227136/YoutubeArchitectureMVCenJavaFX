@@ -6,7 +6,7 @@
 
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1"
-fx:controller="org.example.youtubearchitecturemvcenjavafx.Controllers.HelloController">
+fx:controller="org.example.youtubearchitecturemvcenjavafx.views.HelloController">
    <children>
       <TextField fx:id="lastnameTextField" layoutX="300.0" layoutY="105.0" />
       <TextField fx:id="firstnameTextField" layoutX="300.0" layoutY="166.0" />
